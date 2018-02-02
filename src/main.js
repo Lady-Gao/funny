@@ -48,7 +48,7 @@ const routes = [{
         return System.import("./views/faxian/index.vue")
     }
 }, {
-    // 当用户瞎B输的时候 且没有定义在路由表里面的时候  就会跳转到 music 下面
+    // 当用户随便输的时候 且没有定义在路由表里面的时候  就会跳转到 music 下面
     path: '*',
     redirect: '/jingxuan'
 }]
